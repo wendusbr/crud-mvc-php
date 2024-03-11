@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: snow;
+}
+
+.myContainer{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.myForm{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color:#FFFFFF;
+}
+
+.myInput{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+    width: 100%;
+    min-height: 25px;
+    margin-top:5px
+}
+
+.mySelect{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+    width: 100%;
+    min-height: 30px;
+    margin-top: 5px;
+}
+
+.myFormInput{
+    margin-bottom: 10px;
+}
+
+.myButton{
+    border: 1px solid  blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.myButton:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid  white;
+}
