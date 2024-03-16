@@ -1,0 +1,32 @@
+    <div class="myContainer">
+        <h2  style="text-align: center;">Cadastro</h2>
+        <form method="post" action="../controller/createController.php" class="myForm">
+            <div class="myFormInput">
+                <label for="nome">Nome Completo</label>
+                <input class="myInput" type="text" name="nome"  id="nome" placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="myFormInput">
+                <label for="endereco">Endereço</label>
+                <input class="myInput" type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" required>
+            </div>
+            <div class="myFormInput">
+                <label for="escolaridade">Escolaridade</label>
+                <select class="mySelect" name="escolaridade" id="escolaridade" required>
+                    <option value="" selected  disabled>Selecione...</option>
+                    <option value="Ensino fundamental">Ensino fundamental</option>
+                    <option value="Ensino medio">Ensino médio</option>
+                    <option value="Ensino superior">Ensino  superior</option>
+                </select>
+            </div>
+            <div class="myFormInput">
+                <label for="sim">Matriculado?</label>
+                <input type="radio" id="sim" name="matriculado" value="1" required>
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="matriculado" value="0"  required>
+                <label for="nao">Não</label>
+            </div>
+            <div style="text-align: end;">
+                <button type="submit"  class="myButton">Enviar</button>
+            </div>
+        </form>
+    </div>

@@ -6,8 +6,6 @@ body{
 .myContainer{
     margin-left: 35%;
     margin-right: 35%;
-    margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 .myForm{
@@ -41,10 +39,8 @@ body{
 }
 
 .myButton{
-    border: 1px solid  blue;
+    border: none;
     border-radius: 5px;
-    background-color: blue;
-    color: #FFFFFF;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -54,6 +50,20 @@ body{
 
 .myButton:hover{
     cursor: pointer;
-    background-color: transparent;
-    border: 1px solid  white;
+    background-color: gainsboro;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{
+    background-color: cornflowerblue;
 }
