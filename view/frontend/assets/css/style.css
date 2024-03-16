@@ -1,6 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: snow;
+    background-color: snow
 }
 
 .myContainer{
@@ -11,7 +11,7 @@ body{
 .myForm{
     padding: 20px;
     border-radius: 5px;
-    background-color: cornflowerblue;
+    background-color: #00308F;
     color:#FFFFFF;
 }
 
@@ -53,10 +53,10 @@ body{
     background-color: gainsboro;
 }
 
-table {
+.myTable {
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
 th, td {
     padding: 8px;
@@ -66,4 +66,24 @@ th, td {
 
 tr:hover{
     background-color: cornflowerblue;
+}
+
+.myMenu{
+    background-color: #00308F;
+    margin-bottom: 20px;
+
+    padding: 10px;
+    min-width: 1920px;
+    margin-left: -10px;
+    margin-top: -10px
+}
+
+.myItemMenu{
+    text-decoration: none;
+    color:snow;
+    margin-right: 20px;
+}
+
+.myItemMenu:hover{
+    color: cornflowerblue;
 }

@@ -15,7 +15,7 @@
                     <td>{$dados[$i]['endereco']}</td>
                     <td>{$dados[$i]['escolaridade']}</td>
                     <td>{$dados[$i]['matriculado']}</td>
-                    <td><a href='editar.php?id={$dados[$i]['id']}'>Editar</a> <a href='../controller/deleteController.php?id={$dados[$i]['id']}'>Deletar</a></td>
+                    <td><a style='margin-right: 20px;' href='editar.php?id={$dados[$i]['id']}'>Editar</a> <a style='color:red' href='../controller/deleteController.php?id={$dados[$i]['id']}'>Deletar</a></td>
                 </tr>
                 ";
             }

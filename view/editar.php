@@ -33,7 +33,7 @@
                 <label for="nao">Não</label>
             </div>
             <div style="text-align: end;">
-                <button type="submit"  class="myButton">Enviar</button>
+                <button type="submit" class="myButton">Atualizar</button>
             </div>
         </form>
 </div>
